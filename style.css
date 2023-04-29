@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(148, 107, 186);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+
+.bottom {
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar {
+     width: 40vw;
+     cursor: pointer;
+}
+.songItemcontainer{
+    margin-top: 50px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black; 
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 27px;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 0 20px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 20px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    top: 35px;
+    position: absolute;
+    left: 30vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
